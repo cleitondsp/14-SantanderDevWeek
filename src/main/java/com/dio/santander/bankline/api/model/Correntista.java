@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
+@Entity // Indica que esta classe terá uma tabela no postgre
 @Table(name = "tab_correntista") // criando uma tabela com o atributos abaixo
 
 public class Correntista {

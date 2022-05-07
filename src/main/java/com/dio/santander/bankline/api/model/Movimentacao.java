@@ -2,13 +2,31 @@ package com.dio.santander.bankline.api.model;
 
 import java.time.LocalDateTime;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity 
+@Table(name = "tab_movimentacao")
+
 public class Movimentacao {
 	
+		@Id														// essa sera chave primaria
+		@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+		
+		@Column(name = "data_hora")
 	private LocalDateTime dataHora;
 	private String descricao;
 	private Double valor;
 	
+		@Enumerated(EnumType.STRING)
 	private MovimentacaoTipo tipo; // Na movimentação precisamos fazer a escolha de RECEITA ou DESPESA
 	
 	public Integer getId() {
