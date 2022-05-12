@@ -5,3 +5,10 @@
 
 ## Projeto de um Bankline utilizando as ferramentas abaixo:
 
+- PostgreSql
+- Java
+- Eclipse
+
+
+### PROJETO NÃO FINALIZADO ( PROBLEMAS NO BANCO DE DADOS )
+
