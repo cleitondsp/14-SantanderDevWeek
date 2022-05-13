@@ -12,3 +12,4 @@
 *********************************************************************************************************************
 ### PROJETO NÃO FINALIZADO ( PROBLEMAS NO BANCO DE DADOS )
 
+Não consegui encontrar o erro, download e instalação feitos conforme video demonstrativo, porém muitas opções durante a execução não aparecem!!
